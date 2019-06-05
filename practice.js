@@ -15,15 +15,30 @@
 */
 
 //Code here
+let me = {
+  name: 'KhiavDim',
+  age: 32
+}
+
 
 ////////// PROBLEM 2 //////////
 
 /*
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
-  Have the values to those keys be strings that are equal to your favorite thing in that category.
+  Have the values to those keys be strings that are 
+  equal to your favorite thing in that category.
 */
 
 //Code here
+let favoriteThings = {
+  band: 'Gungor',
+  food: 'Pho',
+  person: 'Xyivfab',
+  book: 'Anything',
+  movie: 'Split',
+  holiday: 'Christmas'
+}
+
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -31,6 +46,8 @@
 */
 
 //Code here
+favoriteThings.car = 'Highlander'
+favoriteThings.brand = 'Toyota'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -38,6 +55,8 @@
 */
 
 //Code here
+favoriteThings['food'] = 'Chicken Nuggets'
+favoriteThings['book'] = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
@@ -50,12 +69,16 @@
 */
 
 //Code here
+let backPack = {}
+let item = 'firstPocket'
+backpack['item'] = 'chapstick'
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
+
 
 /*
 You probably noticed that it just alerted [object Object].
